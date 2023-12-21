@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8fc7d1;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.menu a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 10px solid #ddd;
+    padding: 25px;
+    text-align: left;
+}
+
+/* Add any additional styling as needed */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Atur lebar maksimum sesuai kebutuhan */
+    margin: 0 auto; /* Memusatkan container */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 30px; /* Atur ukuran font sesuai kebutuhan */
+}
+
+.menu a {
+    font-size: 25px; /* Atur ukuran font menu sesuai kebutuhan */
+    margin-left: 25px;
+}

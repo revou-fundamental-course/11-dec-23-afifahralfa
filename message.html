@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Message Us</title>
+</head>
+<body>
+
+<div class="container">
+    <h2 id="greeting"></h2>
+    <img src="school1.jpg" alt="Welcome Image" style="width: 100%; max-height: 400px; object-fit: cover;">
+
+    </div>
+</div>
+
+    <div class="container">
+        <h2>Message Us</h2>
+        <form id="messageForm" onsubmit="return sendMessage()">
+            <table>
+                <tr>
+                    <td><label for="name">Nama:</label></td>
+                    <td><input type="text" id="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Jenis Kelamin:</label></td>
+                    <td>
+                        <select id="gender" required>
+                            <option value="male">Laki-laki</option>
+                            <option value="female">Perempuan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Tanggal Lahir:</label></td>
+                    <td><input type="date" id="dob" required></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Alamat:</label></td>
+                    <td><textarea id="address" required></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Pesan:</label></td>
+                    <td><textarea id="message" required></textarea></td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit">
+             </form>
+             </div>
+            </table>
+            <a href="homepage.html">Back to Home</a>
+        </div>
+
+
+<div class="container" id="resultContainer" style="display: none;">
+    <h2>Hasil Pengisian Form</h2>
+    <p id="resultName"></p>
+    <p id="resultEmail"></p>
+    <p id="resultGender"></p>
+    <p id="resultDob"></p>
+    <p id="resultAddress"></p>
+    <p id="resultMessage"></p>
+    <a href="homepage.html">Back to Home</a>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
